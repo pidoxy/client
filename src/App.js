@@ -1,5 +1,5 @@
 import './App.css';
-import './Bootstrap';
+import './Bootstrap.css';
 import './Jquery';
 import './Bundle';
 import Navbar from "./components/Navbar";
