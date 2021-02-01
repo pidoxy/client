@@ -1,7 +1,5 @@
 import './App.css';
-// import './Bootstrap.css';
-// import './Jquery';
-// import './Bundle';
+import './Bootstrap.css';
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import AboutPage from "./components/About";
