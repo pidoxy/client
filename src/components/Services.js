@@ -1,5 +1,5 @@
 import React from "react";
-import Violin from "./violin.svg";
+import violin from "./violin";
 
 const OurServices = ({ bgColor }) => {
 
@@ -37,7 +37,7 @@ const OurServices = ({ bgColor }) => {
                     </div>
                     <div class="col-md-6 col-12 mb-3 mb-0-md">
                         <div className="card  p-3">
-                            <img src={Violin} class="card-img-top img-thumbnail img-fluid" alt="violin" />
+                            <img src={violin} class="card-img-top img-thumbnail img-fluid" alt="violin" />
                             <div className="card-body">
                                 <h5 className="card-title text-center">VOCATION ASPECT</h5>
                                 <p className="card-text">Home Management. Food and Nutrition. </p>
