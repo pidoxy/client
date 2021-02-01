@@ -1,4 +1,7 @@
 import './App.css';
+import './Bootstrap.css';
+import './Jquery';
+import './Bundle.js';
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import AboutPage from "./components/About";
@@ -6,7 +9,6 @@ import FAQPage from "./components/Faq";
 import OurServices from "./components/Services";
 import Footer from "./components/footer";
 
-// import Carousel from "./components/Carousel";
 
 
 function App() {
