@@ -1,5 +1,5 @@
 import React from "react";
-import violin from "./violin";
+import violin from "./violin.svg";
 
 const OurServices = ({ bgColor }) => {
 
