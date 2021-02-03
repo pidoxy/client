@@ -1,4 +1,6 @@
 import React from "react";
+import '../Jquery';
+
 
 const Navbar = ({ bgColor }) => {
     return (

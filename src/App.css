@@ -39,12 +39,15 @@ p {
 }
 
 .card {
-  max-height: 20rem;
-  min-height: 15rem;
+  min-height: 30rem;
 }
-
+.landing-page{
+  background-image: url('./drum.svg');
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
 .landing-page, .landing-page p {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,6 +106,9 @@ p {
   h4 {
     font-weight: 500 !important;
   }
+  h5{
+    font-size: 1.5rem !important;
+  }
   p {
     font-weight: 200 !important;
   }
@@ -141,6 +147,9 @@ p {
   h4 {
     font-weight: 500 !important;
   }
+  h5{
+    font-size: 1.3rem !important;
+  }
   p {
     font-weight: 200 !important;
   }
@@ -178,6 +187,9 @@ p {
   }
   h4 {
     font-weight: 500 !important;
+  }
+  h5{
+    font-size: 1rem !important;
   }
   p {
     font-weight: 200 !important;
