@@ -41,6 +41,14 @@ p {
 .card {
   min-height: 30rem;
 }
+.owl-dots{
+  display:none;
+}
+.carousel_content{
+  background: #FFFFFF;
+  padding:2rem;
+  font-size: 54px;
+}
 .landing-page{
   background-image: url('./drum.svg');
   /* background-size: cover; */

@@ -31,7 +31,7 @@ const OurServices = ({ bgColor }) => {
                                 <a href="/qualifications/music/grade-exams/theory"><img src={drum} alt="violin" class="card-img-top" /></a>
                                 <div class="card-body">
                                     <a href="/qualifications/music/grade-exams/theory"><h3>Theory of Music Grades</h3></a>
-                                    <p>Our Theory of Music syllabus responds to modern teaching and learning styles, with workbooks presenting the study of musical theory in bright and practical formats.</p>                                                </div>
+                                    <p>Our Theory of Music scheme corresponds to modern teaching and learning styles, with workbooks presenting the study of musical theory in bright and practical formats.</p>                                                </div>
 
 
                             </div>
