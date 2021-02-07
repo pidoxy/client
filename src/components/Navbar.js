@@ -23,7 +23,10 @@ const Navbar = ({ bgColor }) => {
                             <a class="nav-link" href={`https://discord.com/invite/J3Hcfdc`}>Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href={`https://discord.com/invite/J3Hcfdc`}>....</a>
+                            <a class="nav-link" href={`https://discord.com/invite/J3Hcfdc`}>FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={`https://discord.com/invite/J3Hcfdc`}>Contact Us</a>
                         </li>
                     </ul>
                 </div>

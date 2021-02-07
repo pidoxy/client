@@ -6,19 +6,16 @@ const Footer = ({ bgColor }) => {
             <div className={`row text-center`}>
                 <div className={`col`}>
                     <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About</a>
+                        <a href="https://discord.com/invite/J3Hcfdc">Home</a>
                     </div>
                     <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About</a>
+                        <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
                     </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About</a>
-                    </div>
-                </div>
-                <div className={`col`}>
                     <div>
                         <a href="https://discord.com/invite/J3Hcfdc">Our services</a>
                     </div>
+                </div>
+                <div className={`col`}>
                     <div>
                         <a href="https://discord.com/invite/J3Hcfdc">FAQ</a>
                     </div>
