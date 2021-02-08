@@ -7,7 +7,7 @@ import AboutPage from "./components/About";
 import FAQPage from "./components/Faq";
 import OurServices from "./components/Services";
 import Footer from "./components/footer";
-
+import Car from "./components/Carousel";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <Navbar bgColor={"white"} />
       <LandingPage bgColor={"blue"} />
       <OurServices  bgColor={"white"}/>
+      <Car  bgColor={"light"}/>
       <AboutPage bgColor={"blue"} />
       <FAQPage bgColor={"light"} />
       <Footer bgColor={"blue"}/>

@@ -1,5 +1,4 @@
 import React from "react";
-// import img_1 from "./landing_1";
 
 const LandingPage = ({ bgColor }) => {
   return (
@@ -9,7 +8,6 @@ const LandingPage = ({ bgColor }) => {
           Discovering talents. Creativity.
           <br /> Great Quality
         </p>
-        {/* <img src={img_1} /> */}
       </div>
     </div>
   );

@@ -18,7 +18,12 @@
   background-color: #76B1BA;
   color: black;
 }
-
+.nav-link{
+  color:black !important;
+}
+.nav-link:hover{
+  color:#273739 !important;
+}
 h2, .text-center {
   text-align: center;
 }
@@ -40,6 +45,14 @@ p {
 
 .card {
   min-height: 30rem;
+}
+.owl-dots{
+  display:none;
+}
+.carousel_content{
+  background: #FFFFFF;
+  padding:2rem;
+  font-size: 50px;
 }
 .landing-page{
   background-image: url('./drum.svg');
@@ -99,7 +112,7 @@ p {
 
 /* Tab screens */
 
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   h2 {
     font-size: 2.5em !important;
   }
@@ -135,6 +148,10 @@ p {
     font-family: Sahitya;
     font-size: 20px;
     line-height: 37px;
+  }
+  .carousel_content{
+    padding:1.5rem !important;
+    font-size: 40px !important;
   }
 }
 
@@ -177,6 +194,10 @@ p {
     font-size: 20px;
     line-height: 37px;
   }
+  .carousel_content{
+    padding:1.25rem !important;
+    font-size: 25px !important;
+  }
 }
 
 /* Small smart phones */
@@ -217,5 +238,9 @@ p {
     padding: 20px 15px;
     font-size: 15px;
     line-height: 37px;
+  }
+  .carousel_content{
+    padding:.5rem !important;
+    font-size: 10px !important;
   }
 }

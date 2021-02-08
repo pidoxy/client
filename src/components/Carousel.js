@@ -1,30 +1,42 @@
 import React from "react";
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
-export class Carousel extends React.Component {
-    
-    render() {
-        return (
-            <div>
-                <OwlCarousel items={3}
-                    className="owl-theme"
-                    loop
-                    nav
-                    margin={8} >
-                    <div ><img className="img" src={'assets/img/img1.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img2.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img4.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img3.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img5.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img6.jpg'} /></div>
-                    <div><img className="img" src={'assets/img/img7.jpg'} /></div>
-                </OwlCarousel>
-
-            </div >
-        );
-    };
-};
-
-export default Carousel;
+class Car extends React.Component {
+  render() {
+    return (
+      <div className="pt-3 pb-3 pr-3 pl-3 light">
+        <OwlCarousel items={3} autoplayHoverPause={true} autoplay={true} loop>
+          <div class="item">
+            <p className="text-center carousel_content m-1">TRUMPET</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">VIOLIN</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">RECORDER</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">FLUTE</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">GUITAR</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">SAXOPHONE</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">GUITAR</p>
+          </div>
+          <div class="item">
+            <p className="text-center carousel_content m-1">LOCAL AIRS</p>
+          </div><div class="item">
+            <p className="text-center carousel_content m-1">FOREIGN AIRS</p>
+          </div>
+        </OwlCarousel>
+      </div>
+    );
+  }
+}
+export default Car;
