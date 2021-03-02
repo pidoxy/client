@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <Navbar bgColor={"white"} />
-      <LandingPage bgColor={"white"} />
-      <OurServices  bgColor={"blue"}/>
+      <LandingPage bgColor={"blue"} />
+      <OurServices  bgColor={"white"}/>
       <Car  bgColor={"light"}/>
-      <AboutPage bgColor={"white"} />
+      <AboutPage bgColor={"blue"} />
       <FAQPage bgColor={"light"} />
       <Footer bgColor={"blue"}/>
       

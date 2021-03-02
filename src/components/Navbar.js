@@ -6,14 +6,14 @@ import logo from "../logo.svg";
 const Navbar = ({ bgColor }) => {
     return (
         <div className={` ${bgColor} navbar_page`}>
-            <nav className="navbar navbar-expand-lg fixed-top navbar-light light">
-                <a className="pl-md-4 navbar-brand" href="#home"><img src={logo} alt="logo" referrerPolicy/></a>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light light">
+                <a class="navbar-brand" href="#home"><img src={logo} alt="logo" referrerPolicy/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto pl-md-4 t-w">
+                    <ul class="navbar-nav ml-auto ">
                         <li class="nav-item">
                             <a class="nav-link" href={`https://discord.com/invite/J3Hcfdc`}>Home</a>
                         </li>

@@ -9,14 +9,14 @@ import trumpet from "../trumpet.svg";
 const OurServices = ({ bgColor }) => {
     console.log(violin);
     return (
-        <div className={` ${bgColor} services-page`}>
+        <div className={` ${bgColor} services-page mb-3`}>
             <h2 className="pb-3">Our Services</h2>
             <div className="">&nbsp;</div>
 
             <div class="container">
                 <div class="row template_item_grid trinity_content justify-content-center align-items-center ">
                     <div class="row g-5">
-                        <div className=" col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
                                 <a href="/qualifications/music/diplomas"><img src={sax} class="card-img-top img-fluid" alt="violin" /></a>
@@ -29,7 +29,7 @@ const OurServices = ({ bgColor }) => {
                         </div>
 
 
-                        <div className="col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3 ">
 
                                 <a href="/qualifications/music/grade-exams"><img src={piano} class="card-img-top img-fluid" alt="violin" /></a>
@@ -41,7 +41,7 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
                                 <a href="/qualifications/music/digital-music-grades"><img src={guitar} class="card-img-top img-fluid" alt="violin" /></a>
@@ -53,7 +53,7 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
                                 <a href="/qualifications/music/grade-exams/theory"><img src={another} alt="violin" class="card-img-top" /></a>
@@ -65,7 +65,7 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
                                 <a href="/qualifications/music/music-certificate-exams"><img src={violin} class="card-img-top img-fluid" alt="violin" /></a>
@@ -77,7 +77,7 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-12 mb-3 mb-0-md">
+                        <div className="col-md-6 col-lg-4 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
                                 <a href="/qualifications/music/rock-and-pop"><img src={trumpet} class="card-img-top img-fluid" alt="violin" /></a>
