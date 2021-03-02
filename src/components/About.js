@@ -1,6 +1,5 @@
 import React from "react";
-import Circle from "../about_ellipse2.svg";
-import Circle2 from "../about_ellipse.svg";
+// import Circle from "../about_ellipse2.svg";npm
 
 const AboutPage = ({ bgColor }) => {
     return (
