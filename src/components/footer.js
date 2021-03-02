@@ -1,18 +1,15 @@
 import React from "react";
+import logo from "../logo.svg"
 
 const Footer = ({ bgColor }) => {
     return (
-        <div className={` ${bgColor} services-page`}>
+        <div className={` ${bgColor} footer`}>
             <div className={`row text-center`}>
                 <div className={`col`}>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">Home</a>
-                    </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
-                    </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">Our services</a>
+                    <div className="pt-4 mt-1 pb-4">
+
+                        <a className="" href="https://discord.com/invite/J3Hcfdc" ><img src={logo} alt="logo" /></a>
+                        
                     </div>
                 </div>
                 <div className={`col`}>
@@ -20,12 +17,15 @@ const Footer = ({ bgColor }) => {
                         <a href="https://discord.com/invite/J3Hcfdc">FAQ</a>
                     </div>
                     <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About</a>
+                        <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
+                    </div>
+                    <div>
+                        <a href="https://discord.com/invite/J3Hcfdc">Our Services</a>
                     </div>
                 </div>
                 <div className={`col`}>
                     <div>
-                        <p>Contact Us</p>
+                        <h4>Contact Us</h4>
                     </div>
                     <div>
                         <a href="https://discord.com/invite/J3Hcfdc">Email</a>
@@ -35,8 +35,9 @@ const Footer = ({ bgColor }) => {
                     </div>
                 </div>
             </div>
-            <div class="col-12 p-none white container-fluid">
-                <p className="text-center">©2020&nbsp;Graceworths</p>
+            <hr className="m-0" />
+            <div class="col-12 container-fluid text-center">
+                <p className="text-center pb-1 pt-1 m-0">©Copyright-&nbsp;Graceworths</p>
             </div>
         </div>
     );
