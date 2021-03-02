@@ -6,33 +6,33 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 class Car extends React.Component {
   render() {
     return (
-      <div className="pt-3 pb-3 pr-5 pl-5 light">
-        <OwlCarousel items={4} autoplayHoverPause={true} autoplay={true} loop>
+      <div className="pt-3 pb-3 pr-3 pl-3 light">
+        <OwlCarousel items={3} autoplayHoverPause={true} autoplay={true} loop>
           <div class="item">
-            <p className="text-center carousel_content mr-1">Trumpet</p>
+            <p className="text-center carousel_content m-1">TRUMPET</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content mr-1">Violin</p>
+            <p className="text-center carousel_content m-1">VIOLIN</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content mr-1">Recorder</p>
+            <p className="text-center carousel_content m-1">RECORDER</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content ">Flute</p>
+            <p className="text-center carousel_content m-1">FLUTE</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content ">Guitar</p>
+            <p className="text-center carousel_content m-1">GUITAR</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content ">Saxophone</p>
+            <p className="text-center carousel_content m-1">SAXOPHONE</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content ">Guitar</p>
+            <p className="text-center carousel_content m-1">GUITAR</p>
           </div>
           <div class="item">
-            <p className="text-center carousel_content ">Local Airs</p>
+            <p className="text-center carousel_content m-1">LOCAL AIRS</p>
           </div><div class="item">
-            <p className="text-center carousel_content ">Foreign Airs</p>
+            <p className="text-center carousel_content m-1">FOREIGN AIRS</p>
           </div>
         </OwlCarousel>
       </div>
