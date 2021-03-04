@@ -1,10 +1,10 @@
 import React from "react";
-import violin from "../violin.svg";
-import sax from "../sax.svg";
-import guitar from "../guitar.svg";
-import another from "../another.svg";
-import piano from "../piano.svg";
-import trumpet from "../trumpet.svg";
+import violin from "../violin.jpg";
+import sax from "../sax.jpg";
+import guitar from "../guitar.jpg";
+import another from "../another.jpg";
+import piano from "../piano.jpg";
+import drum from "../drum.jpg";
 
 const OurServices = ({ bgColor }) => {
     console.log(violin);
@@ -80,7 +80,7 @@ const OurServices = ({ bgColor }) => {
                         <div className="col-lg-6 col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
-                                <a href="/qualifications/music/rock-and-pop"><img src={trumpet} class="card-img-top img-fluid" alt="violin" /></a>
+                                <a href="/qualifications/music/rock-and-pop"><img src={drum} class="card-img-top img-fluid" alt="violin" /></a>
                                 <div class="card-body">
                                     <a href="/qualifications/music/rock-and-pop"><h3>Graceworths Local/International Languages</h3></a>
                                     <p>Real songs, real skills, real progress. With our huge range of hit local air and international songs spanning all contemporary styles, you get to play/sing the music you love, while developing the huge range of skills that professional musicians need.</p>                                                </div>
