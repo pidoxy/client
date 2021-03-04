@@ -4,9 +4,9 @@ import logo from "../logo.svg"
 const Footer = ({ bgColor }) => {
     return (
         <div className={` ${bgColor} footer`}>
-            <div className={`row text-center`}>
-                <div className={`col`}>
-                    <div className="pt-4 mt-1 pb-4">
+            <div className={`row text-left`}>
+                <div className={`col-12 col-md`}>
+                    <div className="pl-md-3 pl-0 pt-4 mt-1 pb-4">
 
                         <a className="" href="https://discord.com/invite/J3Hcfdc" ><img src={logo} alt="logo" /></a>
                         
