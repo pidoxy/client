@@ -11,7 +11,7 @@
 
 .white {
   background-color: #FCEFEE;
-  color: #273739;
+  color: #3E3E3E;
 }
 
 .light {
@@ -40,6 +40,11 @@ h2 {
 
 h4 {
   font-weight: 500 !important;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2em !important;
 }
 
 p {
@@ -73,9 +78,15 @@ p.carousel_content {
   color: #FCEFEE;
 }
 
-/* .landing-page{
-  
-} */
+/*  change */
+
+.landing-page {
+  background-image: url('/src/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FCEFEE;
+  font-size: 80px !important;
+}
 
 /* .about_ellipse {
   position: absolute;
@@ -137,7 +148,7 @@ p.carousel_content {
   color: white;
 }
 
-.footer{
+.footer {
   padding: 20px 15px 0;
   font-family: Sahitya;
   font-size: 20px;
@@ -154,17 +165,27 @@ p.carousel_content {
   align-items: center;
 }
 
-hr{
+hr {
   border-top-color: #FCEFEE !important;
 }
 
-.footer div > a{
+.footer div>a {
   text-decoration: none;
-  color:#FCEFEE !important;
-}
-.nav-link{
   color: #FCEFEE !important;
 }
+
+.nav-link {
+  color: #FCEFEE !important;
+}
+
+.card-img-top {
+  height: 289px !important;
+}
+
+.bold{
+  font-weight: 900;
+}
+
 /* Responsive screens */
 
 /* Tab screens */
@@ -251,10 +272,9 @@ hr{
     font-size: 20px;
     line-height: 37px;
   }
-  .text-left{
+  .text-left {
     text-align: left;
   }
-  
   .carousel_content {
     padding: 1.25rem !important;
     font-size: 18px !important;

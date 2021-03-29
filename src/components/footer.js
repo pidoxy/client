@@ -4,34 +4,36 @@ import logo from "../logo.svg"
 const Footer = ({ bgColor }) => {
     return (
         <div className={` ${bgColor} footer`}>
-            <div className={`row text-left`}>
-                <div className={`col-12 col-md`}>
-                    <div className="pl-md-3 pl-0 pt-4 mt-1 pb-4">
+            <div className="container">
+                <div className={`row text-left`}>
+                    <div className={`col-12 col-md`}>
+                        <div className="pl-md-3 pl-0 pb-4">
 
-                        <a className="" href="https://discord.com/invite/J3Hcfdc" ><img src={logo} alt="logo" /></a>
-                        
+                            <a className="" href="https://discord.com/invite/J3Hcfdc" ><img src={logo} alt="logo" /></a>
+
+                        </div>
                     </div>
-                </div>
-                <div className={`col`}>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">FAQ</a>
+                    <div className={`col`}>
+                        <div>
+                            <a href="https://discord.com/invite/J3Hcfdc">FAQ</a>
+                        </div>
+                        <div>
+                            <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
+                        </div>
+                        <div>
+                            <a href="https://discord.com/invite/J3Hcfdc">Our Services</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
-                    </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">Our Services</a>
-                    </div>
-                </div>
-                <div className={`col`}>
-                    <div>
-                        <h4>Contact Us</h4>
-                    </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">Email</a>
-                    </div>
-                    <div>
-                        <a href="https://discord.com/invite/J3Hcfdc">TEL:</a>
+                    <div className={`col`}>
+                        <div>
+                            <h4>Contact Us</h4>
+                        </div>
+                        <div>
+                            <a href="https://discord.com/invite/J3Hcfdc">Email</a>
+                        </div>
+                        <div>
+                            <a href="https://discord.com/invite/J3Hcfdc">TEL:</a>
+                        </div>
                     </div>
                 </div>
             </div>
