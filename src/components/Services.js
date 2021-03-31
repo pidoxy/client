@@ -4,7 +4,8 @@ import React from "react";
 import i1 from "../1.jpg";
 import i2 from "../2.jpg";
 import i3 from "../3.jpg";
-import instr1 from "../instrument1.jpeg";
+// import instr1 from "../instrument1.jpeg";
+import i5 from "../5.jpg";
 import i7 from "../7.jpg";
 import i8 from "../8.jpg";
 import i9 from "../9.jpg";
@@ -32,6 +33,13 @@ import i34 from "../34.jpg";
 import i33 from "../33.jpg";
 import i32 from "../32.jpg";
 import i35 from "../35.jpg";
+import i42 from "../42.jpg";
+import i46 from "../46.jpg";
+import i47 from "../47.jpg";
+import i48 from "../48.jpg";
+
+import consulogo from "../6.svg";
+
 
 
 
@@ -53,39 +61,33 @@ const OurServices = ({ bgColor }) => {
 
                         <div className=" col-12 mb-3 mb-0-md">
                             <div className="card p-3">
+
                                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <a href="/qualifications/music/diplomas"><img src={i1} className="card-img-top img-fluid" alt="violin" /></a>
+                                            <img src={i1} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i2} className="card-img-top img-fluid" alt="violin" /></a>
+                                            <img src={i2} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i3} className="card-img-top img-fluid" alt="violin" /></a>
+                                            <img src={i3} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={instr1} class="card-img-top img-fluid" alt="violin" /></a>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i32} className="card-img-top img-fluid" alt="violin" /></a>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i33} className="card-img-top img-fluid" alt="violin" /></a>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i34} class="card-img-top img-fluid" alt="violin" /></a>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <a href="/qualifications/music/diplomas"><img src={i35} class="card-img-top img-fluid" alt="violin" /></a>
-                                        </div>
+                                        {/* <div class="carousel-item">
+                                            <img src={instr1} class="card-img-top img-fluid" alt="violin" />
+                                        </div> */}
 
                                     </div>
                                 </div>
 
                                 <div className="card-body">
                                     <h3>Graceworths Instrument Class</h3>
-                                    <p>The programme is packaged for both kids and young adults. Bringing into play all creativity by developing in beneficiaries a virtuoso mindset in playing any instrumenta at hand. Our lessons are structured for instruments ranging from Violin, Viola, Recorder, Flute, Clarinet, Saxophone, Trumpet and Guitar to voice training as a peculiar instrument.</p>
+                                    <p>The programme is packaged for both kids and young adults.
+                                    Bringing into play all creativity by developing in beneficiaries a virtuoso mindset in playing any instrumenta at hand.
+                                    Our lessons are structured for instruments ranging from Violin, Viola, Recorder, Flute, Clarinet, Saxophone, Trumpet and Guitar to voice training as a peculiar instrument.
+                                    </p>
+
+
                                 </div>
                             </div>
                         </div>
@@ -95,29 +97,24 @@ const OurServices = ({ bgColor }) => {
                         <div className=" col-12 mb-3 mb-0-md">
                             <div className="card p-3 ">
 
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src={i7} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img src={i8} className="card-img-top img-fluid" alt="violin" />
+                                            <img src={i42} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div className="carousel-item">
                                             <img src={i30} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item">
-                                            <img src={i31} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                    </div>
 
-                                    <div className="card-body">
-                                        <h3>Graceworths Theory Class</h3>
-                                        <p>
-                                            This section of the institution focuses on kids interested in more of the career structure of music.
-                                            Getting to the nitty-gritty of the theoretical aspects of music.
-                                        </p>
                                     </div>
+                                </div>
+
+                                <div className="card-body">
+                                    <h3>Graceworths Theory Class</h3>
+                                    <p>
+                                        This section of the institution focuses on kids interested in more of the career structure of music.
+                                        Getting to the nitty-gritty of the theoretical aspects of music.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -126,32 +123,27 @@ const OurServices = ({ bgColor }) => {
                         <div className=" col-12 mb-3 mb-0-md">
                             <div class="card p-3">
 
-                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src={i7} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img src={i8} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img src={i30} className="card-img-top img-fluid" alt="violin" />
+                                            <img src={i47} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div className="carousel-item">
                                             <img src={i31} className="card-img-top img-fluid" alt="violin" />
                                         </div>
+
                                     </div>
 
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         <h3>Graceworths Examination Class</h3>
                                         <p>The school will have all students of the institution registered for at least one exam in a school calendar year.
                                         The type and grade of exams will be determined by the school. However, the nusic society of music and it's examination will be most preffered.
-                                            Individuals will sponsor the registrationfor any of the suggested body of exams</p>                                                </div>
-
-
+                                            Individuals will sponsor the registrationfor any of the suggested body of exams</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
 
 
                         <div className=" col-12 mb-3 mb-0-md">
@@ -160,17 +152,49 @@ const OurServices = ({ bgColor }) => {
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <a href="/qualifications/music/diplomas"><img src={i10} class="card-img-top img-fluid" alt="violin" /></a>
+                                            <img src={i5} class="card-img-top img-fluid" alt="violin" />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={i7} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i8} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i9} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i10} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i46} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i47} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i48} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+
                                     </div>
 
+                                    {/* fix talent hunt */}
                                     <div class="card-body">
-                                        <h3>Graceworths Music Consultants</h3>
+                                        <h3>Graceworths Music Consultants<img style={{ width: '8%' }} src={consulogo} alt="..." /></h3>
                                         <p>
                                             Our services provides a seasoned musical program for children,
                                             schools and churches following a well planned curriculum for basic education musical presentations,
                                             kids musical and art competitions, musical compositions for kids and adults. Teenage music education and performances too.
-                                        </p>                                                </div>
+                                        </p>
+                                        <ul>
+                                            <li>Talent hunt shows and competitions.</li>
+                                            <li>Kids private sessions.</li>
+                                            <li>Family training for group performance.</li>
+                                            <li>Kids musical trips and excursions.</li>
+                                            <li>Programs and events entertainers.</li>
+                                            <li>Music for all...no age limits.</li>
+                                        </ul>
+                                    </div>
 
 
                                 </div>
@@ -274,19 +298,17 @@ const OurServices = ({ bgColor }) => {
                         <div className=" col-12 mb-3 mb-0-md">
                             <div class="card p-3">
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src={i25} class="card-img-top img-fluid" alt="violin" />
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
+                                            <img src={i25} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div class="carousel-item">
-                                            <img src={i27} class="card-img-top img-fluid" alt="violin" />
+                                        <div className="carousel-item">
+                                            <img src={i27} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div class="carousel-item">
-                                            <img src={i9} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
+
                                     </div>
 
-                                    <div class="card-body">
+                                    <div className="card-body">
                                         <h3>Graceworths Foreign/local Languages</h3>
                                         <p>
                                             A program set aside to help parents face the challenge created by the strength given the lingua franca in Nigeria.
@@ -295,15 +317,44 @@ const OurServices = ({ bgColor }) => {
                                             Nevertheless, program plans are obtainable for french language and children whose parents are in love with kids speaking the Queens english(the british accents).
                                         </p>
                                     </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className=" col-12 mb-3 mb-0-md">
+                            <div className="card p-3">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
+                                            <img src={i32} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src={i33} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item active">
+                                            <img src={i34} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src={i35} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className="card-body">
+                                        <h3>Sales of Musical Instrument</h3>
+
+                                    </div>
 
 
                                 </div>
                             </div>
-
                         </div>
+
+
                     </div>
                 </div>
-            </div >
+            </div>
         </div >
 
     );

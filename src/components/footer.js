@@ -39,10 +39,14 @@ const Footer = ({ bgColor }) => {
             </div>
             <hr className="m-0" />
             <div class="col-12 container-fluid text-center">
-                <p className="text-center pb-1 pt-1 m-0">©Copyright-&nbsp;Graceworths</p>
+                <p className="text-center pb-1 pt-1 m-0">©Copyright&nbsp;2021- Graceworths</p>
             </div>
         </div>
     );
 };
 
 export default Footer;
+
+
+// Theory class
+// Examination class
