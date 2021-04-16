@@ -186,6 +186,12 @@ hr {
   font-weight: 900;
 }
 
+.founder-img{
+  display: block;
+  width: 30%;
+  border-radius: 60%;
+}
+
 /* Responsive screens */
 
 /* Tab screens */

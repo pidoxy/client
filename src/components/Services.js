@@ -37,7 +37,6 @@ import i42 from "../42.jpg";
 import i46 from "../46.jpg";
 import i47 from "../47.jpg";
 import i48 from "../48.jpg";
-
 import consulogo from "../6.svg";
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import founder from "../founder.jpg";
 // import Circle from "../about_ellipse2.svg";npm
 
 const AboutPage = ({ bgColor }) => {
@@ -12,7 +13,9 @@ const AboutPage = ({ bgColor }) => {
 
                 <h2 className="pt-5 pb-3">About Us</h2>
 
-                <span className="bold">Our founder:</span>
+                <h5 className="bold text-center">Our Founder</h5>
+                <img className="founder-img mx-auto" src={founder} />
+
                 <p className="pb-0 mb-0">It is with great pleasure I introduce myself as the founder and CEO of Graceworths arts and resources.
                 I am excited to you on this website and we hope you will enjoy reaping all the benefits provided in our highly resourceful packages especially
                 for your kids and young adults.</p>
@@ -30,7 +33,7 @@ const AboutPage = ({ bgColor }) => {
                     However, we hold our dear consultants "", talent hunt programmers and family/ young adults musical needs.</p>
                 <p className="pb-0 mb-0">
                     We shall keep to our pledge for excellent service and attention to details. We are committed to giving you the kind of service you always crave for and meet your educational needs and expectations.</p>
-                <p className="pb-0 mb-0">
+                <p className="pb-0 mb-5">
                     Thanks for your ""
 
                     Olambintan D. O (Mrs)
@@ -42,7 +45,7 @@ const AboutPage = ({ bgColor }) => {
                     <em>"The secret of getting ahead is getting started...start your kids on a journey to creative thinking."</em>
                 </p>
 
-                <span className="bold">Graceworths:</span>
+                <span className="bold ">Graceworths:</span>
 
                 <p className="pb-0 mb-0">Graceworths Institute loves to discover the innermost potentials in your creative world in terms of music, arts and vocation. The institute runs various sessions targeted at prepping children and adults.</p>
 
