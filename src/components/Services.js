@@ -66,13 +66,13 @@ const OurServices = ({ bgColor }) => {
                                         <div className="carousel-item active">
                                             <img src={i1} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div class="carousel-item">
+                                        <div className="carousel-item">
                                             <img src={i2} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div class="carousel-item">
+                                        <div className="carousel-item">
                                             <img src={i3} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        {/* <div class="carousel-item">
+                                        {/* <div className="carousel-item">
                                             <img src={instr1} class="card-img-top img-fluid" alt="violin" />
                                         </div> */}
 
