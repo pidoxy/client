@@ -192,6 +192,10 @@ hr {
   border-radius: 60%;
 }
 
+.card-img, .card-img-top {
+  height: 500px !important;
+}
+
 /* Responsive screens */
 
 /* Tab screens */

@@ -63,7 +63,7 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div class="carousel-item active">
+                                        <div className="carousel-item active">
                                             <img src={i1} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div class="carousel-item">
