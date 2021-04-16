@@ -14,7 +14,7 @@ const AboutPage = ({ bgColor }) => {
                 <h2 className="pt-5 pb-3">About Us</h2>
 
                 <h5 className="bold text-center">Our Founder</h5>
-                <img className="founder-img mx-auto" src={founder} />
+                <img className="founder-img mx-auto" src={founder} alt="founder" />
 
                 <p className="pb-0 mb-0">It is with great pleasure I introduce myself as the founder and CEO of Graceworths arts and resources.
                 I am excited to you on this website and we hope you will enjoy reaping all the benefits provided in our highly resourceful packages especially
