@@ -16,6 +16,7 @@ import i13 from "../13.jpg";
 import i14 from "../14.jpg";
 import i15 from "../15.jpg";
 import i16 from "../16.jpg";
+import i18 from "../18.jpg";
 import i19 from "../19.jpg";
 import i20 from "../20.jpg";
 import i21 from "../21.jpg";
@@ -41,6 +42,12 @@ import consulogo from "../6.svg";
 import violinGirl from "../violin-girl.jpg";
 import piano from "../piano-raw.jpg";
 import sax from "../sax-raw2.jpg";
+import exam1 from "../exam1.jpeg";
+import exam2 from "../exam2.jpeg";
+import theory from "../theory.jpg";
+import theory1 from "../theory1.jpg";
+import theory2 from "../theory2.jpg";
+
 
 
 
@@ -64,22 +71,22 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={violinGirl} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="500">
-                                            <img src={piano} class="card-img-top img-fluid" alt="violin"  />
+                                        <div className="carousel-item" >
+                                            <img src={piano} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="500">
+                                        <div className="carousel-item" >
                                             <img src={sax} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item " data-bs-interval="500">
+                                        {/* <div className="carousel-item " >
                                             <img src={i1} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="500">
+                                        </div> */}
+                                        <div className="carousel-item" >
                                             <img src={i2} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="500">
+                                        <div className="carousel-item" >
                                             <img src={i3} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
@@ -105,30 +112,37 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
-                                            <img src={i16} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i19} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i20} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i21} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i22} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i23} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i24} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i25} class="card-img-top img-fluid" alt="violin" />
+                                        <div className="carousel-item " >
+                                            <img src={i18} class="card-img-top img-fluid" alt="violin" />
                                         </div>
+                                        <div className="carousel-item" >
+                                            <img src={i23} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={i19} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        {/* <div className="carousel-item" >
+                                            <img src={art} class="card-img-top img-fluid" alt="violin" />
+                                        </div> */}
+                                        <div className="carousel-item" >
+                                            <img src={i21} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item " >
+                                            <img src={i16} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={i22} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        {/* <div className="carousel-item" >
+                                            <img src={i20} class="card-img-top img-fluid" alt="violin" />
+                                        </div> */}
+
+                                        {/* <div className="carousel-item" data-bs-interval="1000">
+                                            <img src={i25} class="card-img-top img-fluid" alt="violin" />
+                                        </div> */}
                                     </div>
 
                                     <div className="card-body">
@@ -151,11 +165,20 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i42} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i30} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={theory} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={theory1} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={theory2} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
                                     </div>
@@ -177,14 +200,21 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
-                                            <img src={i47} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
-                                            <img src={i31} className="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i25} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        {/* <div className="carousel-item " >
+                                            <img src={i47} className="card-img-top img-fluid" alt="violin" />
+                                        </div> */}
+
+                                        <div className="carousel-item" >
+                                            <img src={exam2} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={exam1} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={i31} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
                                     </div>
@@ -205,35 +235,35 @@ const OurServices = ({ bgColor }) => {
                             <div class="card p-3">
 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
                                     <div class="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i5} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i7} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i8} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        {/* <div className="carousel-item" >
                                             <img src={i9} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        </div> */}
+                                        <div className="carousel-item" >
                                             <img src={i10} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i46} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        {/* <div className="carousel-item" >
                                             <img src={i47} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        </div> */}
+                                        <div className="carousel-item" >
                                             <img src={i48} class="card-img-top img-fluid" alt="violin" />
                                         </div>
 
                                     </div>
 
-                                    {/* fix talent hunt */}
                                     <div className="card-body">
                                         <h3>Graceworths Music Consultants<img style={{ width: '8%' }} src={consulogo} alt="..." /></h3>
                                         <p>
@@ -262,28 +292,28 @@ const OurServices = ({ bgColor }) => {
 
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i11} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i12} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i13} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i14} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i15} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i26} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i28} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i29} class="card-img-top img-fluid" alt="violin" />
                                         </div>
                                     </div>
@@ -307,10 +337,10 @@ const OurServices = ({ bgColor }) => {
                             <div class="card p-3">
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i27} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i27} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
@@ -334,16 +364,16 @@ const OurServices = ({ bgColor }) => {
                             <div className="card p-3">
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
-                                        <div className="carousel-item active" data-bs-interval="1000">
+                                        <div className="carousel-item active" >
                                             <img src={i32} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i33} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i34} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        <div className="carousel-item" data-bs-interval="1000">
+                                        <div className="carousel-item" >
                                             <img src={i35} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
@@ -362,7 +392,7 @@ const OurServices = ({ bgColor }) => {
 
                     </div>
                 </div>
-            </div>
+            </div >
         </div >
 
     );
