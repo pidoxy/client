@@ -16,21 +16,24 @@ const AboutPage = ({ bgColor }) => {
                 <h5 className="bold text-center">Our Founder</h5>
                 <img className="founder-img mx-auto" src={founder} alt="founder" />
 
-                <p className="pb-0 mb-0">It is with great pleasure I introduce myself as the founder and CEO of Graceworths arts and resources.
-                I am excited to you on this website and we hope you will enjoy reaping all the benefits provided in our highly resourceful packages especially
+                <p className="pb-0 mb-0">It is with great pleasure I introduce myself- the Founder and CEO of Graceworths arts and resources.
+                I am excited to have you on this website and we hope you will enjoy reaping all the benefits provided in our highly resourceful packages especially
                 for your kids and young adults.</p>
                 <p className="pb-0 mb-0">
-                    Our kids so innocentand blank on the pages of their minds dependson what parents and their minds depends on what parents and the environment writes on the pure pages of their minds. The foundation of their thinking culture is built on the strength of intelligence solidified on
-                    on the exposure we create on their minds today.</p>
+                    Our kids so innocent and blank on the pages of their minds depend on what we parents and the environment writes on the pure pages of their minds.
+                    The foundation of their thinking culture is built on the strength of intelligence and solidified on the exposure created on their minds today.</p>
                 <p className="pb-0 mb-0">
                     Creative thinking starts with innovative minds.</p>
                 <p className="pb-0 mb-0">
-                    I have observed over these few years past twenty years of experience as an educationist the innocency of children in determining the varying intelligent quotient. Mostly, children's
-                    educational inabilities can be traced to not filling their minds with highly educative and creative programs and resources. Though, the busy and tight daily scheduled might be an excuse but the future of your treasures can not be jeopardized.</p>
+                    I have observed over these few years past twenty years of experience as an educationist the innocency of children in determining the varying intelligent quotient.
+                    Mostly, children's
+                    educational inabilities can be traced to not filling their minds with highly educative and creative programs and resources. 
+                    Though, the busy and tight daily scheduled might be an excuse but the future of your treasures can not be jeopardized.</p>
                 <p className="pb-0 mb-0">
-                    That's our main business an after school or weekend packages to keep your kids up to task in a very relaxing and creative (approach)</p>
+                    That's our main business- an after school or weekend packages to keep your kids up to task in a very relaxing and creative (approach)</p>
                 <p className="pb-0 mb-0">
-                    However, we hold our dear consultants "", talent hunt programmers and family/ young adults musical needs.</p>
+                    Other areas of our services focuses on talent hunt programs, events, kids praise club, album creations, etc.
+                </p>
                 <p className="pb-0 mb-0">
                     We shall keep to our pledge for excellent service and attention to details. We are committed to giving you the kind of service you always crave for and meet your educational needs and expectations.</p>
                 <p className="pb-0 mb-5">
