@@ -53,7 +53,7 @@ import theory2 from "../theory2.jpg";
 
 const OurServices = ({ bgColor }) => {
     return (
-        <div className={` ${bgColor} services-page`}>
+        <div id="services" className={` ${bgColor} services-page`}>
 
             <h2 className="pb-3 pt-3">Our Services</h2>
             <h3 className="pb-3 container">Music School</h3>

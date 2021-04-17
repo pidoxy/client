@@ -11,7 +11,7 @@ const AboutPage = ({ bgColor }) => {
                 {/* <h2 className="mb-0">Welcome to Graceworths Musical Academy</h2>
                 <p className=" text-center">creating the foundation for lifelong learning</p> */}
 
-                <h2 className="pt-5 pb-3">About Us</h2>
+                <h2 className="pt-5 pb-3" id="about">About Us</h2>
 
                 <h5 className="bold text-center">Our Founder</h5>
                 <img className="founder-img mx-auto" src={founder} alt="founder" />
@@ -54,7 +54,9 @@ const AboutPage = ({ bgColor }) => {
 
                 <p className="pb-0 mb-0">Graceworths delights in engaging people to showcase their hidden strengths. The institute has planned programs for all ages that individuals can fit into as preffered.</p>
 
-                <p className="pb-0 mb-0">We specially have programs for young kids...give your kids the best start to a world of fulfilled total education in creativity and expressivity through music art.</p>
+                <p className="pb-0 mb-0">We specially have programs for young kids to engage them for after school and weekend programs
+                <br />
+                Give your kids the best start to a world of fulfilled total education in creativity and expressivity through music art.</p>
             </div>
 
             {/* <img src={Circle} className="about_ellipse" alt="decor"/>

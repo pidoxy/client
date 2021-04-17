@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingPage = ({ bgColor }) => {
   return (
-    <div className={` landing-page`}>
+    <div id="home" className={` landing-page`}>
       <div>
         <p>
           Discovering talents.

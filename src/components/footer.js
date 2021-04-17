@@ -9,19 +9,19 @@ const Footer = ({ bgColor }) => {
                     <div className={`col-12 col-md`}>
                         <div className="pl-md-3 pl-0 pb-4">
 
-                            <a className="" href="https://discord.com/invite/J3Hcfdc" ><img src={logo} alt="logo" /></a>
+                            <a className="" href="#home" ><img src={logo} alt="logo" /></a>
 
                         </div>
                     </div>
                     <div className={`col`}>
                         <div>
-                            <a href="https://discord.com/invite/J3Hcfdc">FAQ</a>
+                            <a href="#faq">FAQ</a>
                         </div>
                         <div>
-                            <a href="https://discord.com/invite/J3Hcfdc">About Us</a>
+                            <a href="#about">About Us</a>
                         </div>
                         <div>
-                            <a href="https://discord.com/invite/J3Hcfdc">Our Services</a>
+                            <a href="#services">Our Services</a>
                         </div>
                     </div>
                     <div className={`col`}>
@@ -29,10 +29,13 @@ const Footer = ({ bgColor }) => {
                             <h4>Contact Us</h4>
                         </div>
                         <div>
-                            <a href="https://discord.com/invite/J3Hcfdc">Email</a>
+                            <a href="mailto:graceworthresources@yahoo.com">Email</a>
                         </div>
                         <div>
-                            <a href="https://discord.com/invite/J3Hcfdc">TEL:</a>
+                            <a href="tel:+234 8024541810">TEL: 08024541810</a><br />
+                            <a href="tel:+234 9095538594">TEL: 08024541810</a><br />
+                            <a href="tel:+234 7015124587">TEL: 08024541810</a>
+
                         </div>
                     </div>
                 </div>

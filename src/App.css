@@ -151,7 +151,7 @@ p.carousel_content {
 .footer {
   padding: 20px 15px 0;
   font-family: Sahitya;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 37px;
 }
 
@@ -182,11 +182,11 @@ hr {
   height: 289px !important;
 }
 
-.bold{
+.bold {
   font-weight: 900;
 }
 
-.founder-img{
+.founder-img {
   display: block;
   width: 30%;
   border-radius: 60%;
@@ -207,7 +207,8 @@ hr {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 } */
-.para{
+
+.para {
   line-height: 33px;
 }
 
@@ -329,7 +330,7 @@ hr {
     font-size: 50px;
     line-height: 100px;
   }
-  .about-page { 
+  .about-page {
     padding: 20px 15px;
     font-size: 15px;
     line-height: 37px;
