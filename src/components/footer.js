@@ -23,14 +23,15 @@ const Footer = ({ bgColor }) => {
                         <div>
                             <a href="#services">Our Services</a>
                         </div>
+                        <div>
+                            <a href="mailto:graceworthresources@yahoo.com">Email</a>
+                        </div>
                     </div>
                     <div className={`col`}>
                         <div>
                             <h4>Contact Us</h4>
                         </div>
-                        <div>
-                            <a href="mailto:graceworthresources@yahoo.com">Email</a>
-                        </div>
+                        
                         <div>
                             <a href="tel:+234 8024541810">TEL 1</a><br />
                             <a href="tel:+234 9095538594">TEL 2</a><br />
