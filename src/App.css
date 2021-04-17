@@ -289,6 +289,9 @@ hr {
     padding: 1.25rem !important;
     font-size: 18px !important;
   }
+  .card-img, .card-img-top {
+    height: 400px !important;
+  }
 }
 
 /* Small smart phones */
@@ -333,5 +336,8 @@ hr {
   .carousel_content {
     padding: .5rem !important;
     font-size: 10px !important;
+  }
+  .card-img, .card-img-top {
+    height: 300px !important;
   }
 }
