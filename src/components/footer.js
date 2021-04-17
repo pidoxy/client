@@ -32,9 +32,9 @@ const Footer = ({ bgColor }) => {
                             <a href="mailto:graceworthresources@yahoo.com">Email</a>
                         </div>
                         <div>
-                            <a href="tel:+234 8024541810">TEL: 08024541810</a><br />
-                            <a href="tel:+234 9095538594">TEL: 08024541810</a><br />
-                            <a href="tel:+234 7015124587">TEL: 08024541810</a>
+                            <a href="tel:+234 8024541810">TEL 1</a><br />
+                            <a href="tel:+234 9095538594">TEL 2</a><br />
+                            <a href="tel:+234 7015124587">TEL 3</a>
 
                         </div>
                     </div>
