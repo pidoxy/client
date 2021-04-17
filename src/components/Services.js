@@ -43,16 +43,16 @@ import exam2 from "../exam2.jpeg";
 import theory from "../theory.jpg";
 import theory1 from "../theory1.jpg";
 import theory2 from "../theory2.jpg";
-
-
+import lang from "../lang.jpg";
+import lang1 from "../lang1.jpg";
 
 
 const OurServices = ({ bgColor }) => {
     return (
         <div id="services" className={` ${bgColor} services-page`}>
 
-            <h2 className="pb-3 pt-3">Our Services</h2>
-            <h3 className="pb-3 container">Music School</h3>
+            <h2 className="pb-5 pt-3">Our Services</h2>
+            <h3 className="pb-1 pt-5 container">Music School</h3>
 
             <div className="">&nbsp;</div>
 
@@ -76,7 +76,7 @@ const OurServices = ({ bgColor }) => {
                                         <div className="carousel-item" >
                                             <img src={sax} class="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        
+
                                         <div className="carousel-item" >
                                             <img src={i2} className="card-img-top img-fluid" alt="violin" />
                                         </div>
@@ -273,7 +273,8 @@ const OurServices = ({ bgColor }) => {
                                             <li>Kids private sessions.</li>
                                             <li>Family training for group performance.</li>
                                             <li>Kids musical trips and excursions.</li>
-                                            <li>Programs and events entertainers.</li>
+                                            <li>Television and entertainment programs.</li>
+                                            <li>Events-Book launch, Symposiums, Wedding, House warming ceremony, </li>
                                             <li>Music for all...no age limits.</li>
                                         </ul>
                                     </div>
@@ -318,10 +319,11 @@ const OurServices = ({ bgColor }) => {
                                     <div class="card-body">
                                         <h3>Graceworths Album Creation</h3>
                                         <p>
+                                            This program documents all phases of creativity encouraging more involvement in practical
+                                            works especially singing and instrumentation-
                                             Kids are known to be so energetic and can make great achievements through creativity in any area of Art in little time space.
-                                            This program documents all phases of creating encourages more involvement in practical
-                                            works- A compilation of such heights is provided from resourceful works especially for graduating class or individuals interested in a compilation of his/her works.
-                                            This definitely will require lots of trainings on album creation and how to manage studio and present works.
+                                            A compilation of such achievements is provided making a very resourceful package of past practical works.
+                                            This definitely will require lots of trainings on album creation and how to manage studio works.
                                         </p>
                                     </div>
 
@@ -338,7 +340,10 @@ const OurServices = ({ bgColor }) => {
                                             <img src={i27} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div className="carousel-item" >
-                                            <img src={i27} className="card-img-top img-fluid" alt="violin" />
+                                            <img src={lang} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item" >
+                                            <img src={lang1} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
                                     </div>
