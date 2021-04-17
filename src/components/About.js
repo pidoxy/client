@@ -34,22 +34,25 @@ const AboutPage = ({ bgColor }) => {
                 <p className="pb-0 mb-0">
                     We shall keep to our pledge for excellent service and attention to details. We are committed to giving you the kind of service you always crave for and meet your educational needs and expectations.</p>
                 <p className="pb-0 mb-5">
-                    Thanks for your ""
-
-                    Olambintan D. O (Mrs)
-                    B. ED (Music) TRCN certified, Lagos State Examination Board (Music Examiner).
+                    Thank you for being a part of our community and our story
                     <br />
-                    She has trained many who have become professionals on musical instruments with experience of over 15 years.
+                    Sincerely,
+                   <p className="para">
+                        Olambintan D. O. (Mrs)
                     <br />
-                    <br />
-                    <em>"The secret of getting ahead is getting started...start your kids on a journey to creative thinking."</em>
+                        BA.Ed (Music)<br />
+                        TRCN certified<br />
+                        Lagos State Examination Board (Music Examiner).
+                    </p>
                 </p>
 
-                <span className="bold ">Graceworths:</span>
+                <span className="bold ">Our Organisation:</span>
+                <br />
+                <em>"The secret of getting ahead is getting started...start your kids on a journey to creative thinking."</em>
 
                 <p className="pb-0 mb-0">Graceworths Institute loves to discover the innermost potentials in your creative world in terms of music, arts and vocation. The institute runs various sessions targeted at prepping children and adults.</p>
 
-                <p className="pb-0 mb-0">Graceworths delights in engaging people to showcase their hidden strengths. The institute has planned programs for all ages that individuals can fit into as preffered</p>
+                <p className="pb-0 mb-0">Graceworths delights in engaging people to showcase their hidden strengths. The institute has planned programs for all ages that individuals can fit into as preffered.</p>
 
                 <p className="pb-0 mb-0">We specially have programs for young kids...give your kids the best start to a world of fulfilled total education in creativity and expressivity through music art.</p>
             </div>
