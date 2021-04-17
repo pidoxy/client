@@ -38,7 +38,8 @@ import i46 from "../46.jpg";
 import i47 from "../47.jpg";
 import i48 from "../48.jpg";
 import consulogo from "../6.svg";
-
+import violinGirl from "../violin-girl.jpg";
+import piano from "../piano-raw.jpg";
 
 
 
@@ -64,6 +65,12 @@ const OurServices = ({ bgColor }) => {
                                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div className="carousel-item active">
+                                            <img src={violinGirl} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src={piano} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item ">
                                             <img src={i1} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div className="carousel-item">
@@ -72,9 +79,7 @@ const OurServices = ({ bgColor }) => {
                                         <div className="carousel-item">
                                             <img src={i3} className="card-img-top img-fluid" alt="violin" />
                                         </div>
-                                        {/* <div className="carousel-item">
-                                            <img src={instr1} class="card-img-top img-fluid" alt="violin" />
-                                        </div> */}
+
 
                                     </div>
                                 </div>
@@ -91,12 +96,57 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
+                        {/* Kidstepreneur */}
+                        <div className=" col-12 mb-3 mb-0-md">
+                            <div class="card p-3">
+
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={i16} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i19} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i20} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i21} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i22} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i23} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i24} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={i25} class="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <h3>Vocations- kidstepreneur</h3>
+                                        <p>
+                                            Kidstepreneur(
+                                            21st century kids are at the risk of exposure to social media vices. Kidstepreneur gains back all kids attention and passion
+                                                into self producing art. The vocational subjects given creates <strike>"I can "</strike> them to better use of self spirit and thinking.
+                                                This time management to them becomes a habit highly productive and creative resources.
+                                            )
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                         <div className=" col-12 mb-3 mb-0-md">
                             <div className="card p-3 ">
 
-                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img src={i42} className="card-img-top img-fluid" alt="violin" />
@@ -129,6 +179,9 @@ const OurServices = ({ bgColor }) => {
                                         </div>
                                         <div className="carousel-item">
                                             <img src={i31} className="card-img-top img-fluid" alt="violin" />
+                                        </div>
+                                        <div className="carousel-item">
+                                            <img src={i25} className="card-img-top img-fluid" alt="violin" />
                                         </div>
 
                                     </div>
@@ -247,59 +300,12 @@ const OurServices = ({ bgColor }) => {
                             </div>
                         </div>
 
-                        {/* Kidstepreneur */}
-                        <div className=" col-12 mb-3 mb-0-md">
-                            <div class="card p-3">
-
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src={i16} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i19} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i20} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i21} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i22} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i23} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i24} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src={i25} class="card-img-top img-fluid" alt="violin" />
-                                        </div>
-                                    </div>
-
-                                    <div class="card-body">
-                                        <h3>Vocations- kidstepreneur</h3>
-                                        <p>
-                                            Kidstepreneur(
-                                            21st century kids are at the risk of exposure to social media vices. Kidstepreneur gains back all kids attention and passion
-                                                into self producing art. The vocational subjects given creates <strike>"I can "</strike> them to better use of self spirit and thinking.
-                                                This time management to them becomes a habit highly productive and creative resources.
-                                            )
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
                         <div className=" col-12 mb-3 mb-0-md">
                             <div class="card p-3">
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src={i25} className="card-img-top img-fluid" alt="violin" />
+                                            <img src={i27} className="card-img-top img-fluid" alt="violin" />
                                         </div>
                                         <div className="carousel-item">
                                             <img src={i27} className="card-img-top img-fluid" alt="violin" />
