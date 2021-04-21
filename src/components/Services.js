@@ -51,7 +51,7 @@ const OurServices = ({ bgColor }) => {
     return (
         <div id="services" className={` ${bgColor} services-page`}>
 
-            <h2 className="pb-5 pt-3">Our Services</h2>
+            <h2 className="pb-5 pt-5">Our Services</h2>
             <h3 className="pb-1 pt-5 container">Music School</h3>
 
             <div className="">&nbsp;</div>

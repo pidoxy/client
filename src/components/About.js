@@ -1,17 +1,16 @@
 import React from "react";
 import founder from "../founder.jpg";
-// import Circle from "../about_ellipse2.svg";npm
+
+
+
 
 const AboutPage = ({ bgColor }) => {
     return (
-        <div className={` ${bgColor} about-page pb-3`}>
+        <div id="about" className={` ${bgColor} about-page pb-3`}>
 
-            <div className="container ">
+            <div className="container">
 
-                {/* <h2 className="mb-0">Welcome to Graceworths Musical Academy</h2>
-                <p className=" text-center">creating the foundation for lifelong learning</p> */}
-
-                <h2 className="pt-5 pb-3" id="about">About Us</h2>
+                <h2 className="pt-5 pb-3" >About Us</h2>
 
                 <h5 className="bold text-center">Our Founder</h5>
                 <img className="founder-img mx-auto" src={founder} alt="founder" />
@@ -62,8 +61,7 @@ const AboutPage = ({ bgColor }) => {
                 Give your kids the best start to a world of fulfilled total education in creativity and expressivity through music art.</p>
             </div>
 
-            {/* <img src={Circle} className="about_ellipse" alt="decor"/>
-            <img src={Circle2} className="about_ellipse2" alt="decor" /> */}
+            
         </div >
     );
 };

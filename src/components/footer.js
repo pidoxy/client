@@ -33,9 +33,9 @@ const Footer = ({ bgColor }) => {
                         </div>
                         
                         <div>
-                            <a href="tel:+234 8024541810">TEL 1</a><br />
-                            <a href="tel:+234 9095538594">TEL 2</a><br />
-                            <a href="tel:+234 7015124587">TEL 3</a>
+                            <a href="tel:+234 8024541810">+234 8024541810</a><br />
+                            <a href="tel:+234 9095538594">+234 9095538594</a><br />
+                            <a href="tel:+234 7015124587">+234 7015124587</a>
 
                         </div>
                     </div>
