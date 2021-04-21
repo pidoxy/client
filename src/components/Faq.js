@@ -1,10 +1,12 @@
 import React from "react";
 
+
+
+
 const FAQPage = ({ bgColor }) => {
     return (
-        <div className={` ${bgColor} FAQ-page`}>
-            {/* <h2>FAQ</h2> */}
-            <div class="col container">
+        <div id="faq" className={` ${bgColor} FAQ-page`}>
+            <div class="col pt-5 container">
                 <h2 className="container text-center">Questions You Have…</h2>
                 <div className="">&nbsp;</div>
             </div>
@@ -29,6 +31,8 @@ const FAQPage = ({ bgColor }) => {
                         </a><em>.</em></p>
                 </div>
             </div>
+
+            
         </div>
     );
 };

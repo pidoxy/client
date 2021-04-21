@@ -11,7 +11,7 @@
 
 .white {
   background-color: #FCEFEE;
-  color: #273739;
+  color: #3E3E3E;
 }
 
 .light {
@@ -40,6 +40,11 @@ h2 {
 
 h4 {
   font-weight: 500 !important;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2em !important;
 }
 
 p {
@@ -73,25 +78,15 @@ p.carousel_content {
   color: #FCEFEE;
 }
 
-/* .landing-page{
-  
-} */
+/*  change */
 
-/* .about_ellipse {
-  position: absolute;
-  z-index: 0;
-  top:3em;
-  left: 22em;
-  width:15%;
-  
-} */
-
-/* .about_ellipse2 {
-  position: absolute;
-  z-index: 0;
-  
-  width:19%;
-} */
+.landing-page {
+  background-image: url('/src/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FCEFEE;
+  font-size: 80px !important;
+}
 
 .landing-page, .landing-page p {
   min-height: 100vh;
@@ -137,10 +132,10 @@ p.carousel_content {
   color: white;
 }
 
-.footer{
+.footer {
   padding: 20px 15px 0;
   font-family: Sahitya;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 37px;
 }
 
@@ -154,17 +149,47 @@ p.carousel_content {
   align-items: center;
 }
 
-hr{
+hr {
   border-top-color: #FCEFEE !important;
 }
 
-.footer div > a{
+.footer div>a {
   text-decoration: none;
-  color:#FCEFEE !important;
-}
-.nav-link{
   color: #FCEFEE !important;
 }
+
+.nav-link {
+  color: #FCEFEE !important;
+}
+
+.card-img-top {
+  height: 289px !important;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.founder-img {
+  display: block;
+  width: 30%;
+  border-radius: 60%;
+}
+
+.card-img, .card-img-top {
+  height: 500px !important;
+}
+
+.carousel-inner>.item {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out !important;
+  -o-transition: -o-transform 0.3s ease-in-out !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.para {
+  line-height: 33px;
+}
+
 /* Responsive screens */
 
 /* Tab screens */
@@ -251,13 +276,15 @@ hr{
     font-size: 20px;
     line-height: 37px;
   }
-  .text-left{
+  .text-left {
     text-align: left;
   }
-  
   .carousel_content {
     padding: 1.25rem !important;
     font-size: 18px !important;
+  }
+  .card-img, .card-img-top {
+    height: 400px !important;
   }
 }
 
@@ -303,5 +330,8 @@ hr{
   .carousel_content {
     padding: .5rem !important;
     font-size: 10px !important;
+  }
+  .card-img, .card-img-top {
+    height: 300px !important;
   }
 }
