@@ -90,9 +90,8 @@ const OurServices = ({ bgColor }) => {
 
                                 <div className="card-body">
                                     <h3>Graceworths Instrument Class</h3>
-                                    <p>The programme is packaged for both kids and young adults.
-                                    Bringing into play all creativity by developing in beneficiaries a virtuoso mindset in playing any instrumenta at hand.
-                                    Our lessons are structured for instruments ranging from Violin, Viola, Recorder, Flute, Clarinet, Saxophone, Trumpet and Guitar to voice training as a peculiar instrument.
+                                    <p>The programme is packaged for children and young adults.
+                                    Our lessons are structured for instruments ranging from violin, viola, recorder, flute, clarinet, saxophone, trumpet and guitar to voice training as a peculiar instrument.
                                     </p>
 
 
@@ -144,8 +143,7 @@ const OurServices = ({ bgColor }) => {
                                         <p>
                                             Kidstepreneur(
                                             21st century kids are at the risk of exposure to social media vices. Kidstepreneur gains back all kids attention and passion
-                                                into self producing art. The vocational subjects given creates <strike>"I can "</strike> them to better use of self spirit and thinking.
-                                                This time management to them becomes a habit highly productive and creative resources.
+                                            into self producing art. The vocational subjects given creates an opportunity for creativity and skill acquisition. It also helps with regards to time management as they make it a habit to become highly productive as well as utilise their creative resources.
                                             )
                                         </p>
                                     </div>
@@ -217,7 +215,7 @@ const OurServices = ({ bgColor }) => {
                                         <h3>Graceworths Examination Class</h3>
                                         <p>The school will have all students of the institution registered for at least one exam in a school calendar year.
                                         The type and grade of exams will be determined by the school. However, the Music Society of Nigeria (MUSON) and it's examination will be most preffered.
-                                            Individuals will sponsor the registrationfor any of the suggested body of exams</p>
+                                            Individuals will sponsor the registration for any of the suggested body of exams</p>
                                     </div>
                                 </div>
                             </div>
@@ -261,21 +259,21 @@ const OurServices = ({ bgColor }) => {
                                     <div className="card-body">
                                         <h3>Graceworths Music Consultants<img style={{ width: '8%' }} src={consulogo} alt="..." /></h3>
                                         <p>
-                                            Our services provides seasoned musical program for children,
+                                            Our services provide seasoned musical program for children,
                                             schools and churches following a well planned curriculum for basic education musical presentations.
                                             <br />
-                                            Kids musicals, art competitions, musical compositions for kids and adults. Young adults music education, performance and presentations too.
+                                            Young adults music education, performance and presentations too.
                                             <br />
                                             The following are our major fields of consultancy:
                                         </p>
                                         <ul>
-                                            <li>Talent hunt shows and competitions.</li>
-                                            <li>Kids private sessions.</li>
-                                            <li>Family training for group performance.</li>
-                                            <li>Kids musical trips and excursions.</li>
-                                            <li>Television and entertainment programs.</li>
-                                            <li>Events-Book launch, Symposiums, Wedding, House warming ceremony, </li>
-                                            <li>Music for all...no age limits.</li>
+                                            <li>talent hunt shows and competitions.</li>
+                                            <li>kids private sessions.</li>
+                                            <li>family training for group performance.</li>
+                                            <li>kids musical trips and excursions.</li>
+                                            <li>television and entertainment programs.</li>
+                                            <li>events-Book launch, Symposiums, Wedding, House warming ceremony, </li>
+                                            <li>music for all...no age limits.</li>
                                         </ul>
                                     </div>
 
@@ -351,10 +349,11 @@ const OurServices = ({ bgColor }) => {
                                     <div className="card-body">
                                         <h3>Graceworths Foreign/local Languages</h3>
                                         <p>
-                                            A program set aside to help parents face the challenge created by the strength given the lingua franca in Nigeria.
+                                            A program is set aside to help parents face the challenge of the increase of young people who do not understand their different Nigerian languages.
+                                            {/* A program set aside to help parents face the challenge created by the strength given the lingua franca in Nigeria.
                                             Kids can learn all Nigerian languages early enough to speak fluently before the first ten years of life.
                                             The first attention is given to the home/local language of a child. Each child can sfterwards progress to learning other Nigerian languages as preferred.
-                                            Nevertheless, program plans are obtainable for french language and children whose parents are in love with kids speaking the Queens english(the british accents).
+                                            Nevertheless, program plans are obtainable for french language and children whose parents are in love with kids speaking the Queens english(the british accents). */}
                                         </p>
                                     </div>
                                 </div>
