@@ -19,10 +19,6 @@
   color: black;
 }
 
-.navbar-brand{
-font-size: 1.75rem !important;
-}
-
 .nav-link {
   color: black !important;
 }
@@ -166,6 +162,10 @@ hr {
   color: #FCEFEE !important;
 }
 
+.navbar-brand{
+  font-size: 1.75rem !important;
+  }
+  
 .card-img-top {
   height: 289px !important;
 }
@@ -260,6 +260,9 @@ hr {
     font-size: 60px;
     line-height: 100px;
   }
+  .navbar-brand{
+    font-size: 1.25rem !important;
+    }
   .about-page {
     padding: 20px 15px;
     font-size: 20px;
@@ -312,6 +315,9 @@ hr {
     font-size: 50px;
     line-height: 100px;
   }
+  .navbar-brand{
+    font-size: 1rem !important;
+    }
   .about-page {
     padding: 20px 15px;
     font-size: 15px;
