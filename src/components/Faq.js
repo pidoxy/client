@@ -14,7 +14,7 @@ const FAQPage = ({ bgColor }) => {
                 <div class="sqs-block-content">
                     <h4 className="pt-3 pb-3">When services do Graceworth institute offer? </h4>
                     <p>Graceworth engages in musical instrument trainings on <strong>recoder</strong>, <strong>clarinet</strong>, <strong>saxophone</strong>, <strong>flute</strong>, <strong>guitar</strong>, and <strong>trumpet</strong>.
-                    <br /> We also offer sessions on voice training and album creation,  trainings on Nigerian Languages and French in music...our languages are <strong>Yoruba, Igbo, Efik, Hausa </strong>.
+                    <br /> We also offer sessions on voice training and album creation,  trainings in Nigerian Languages and French and music. Our languages are <strong>Yoruba, Igbo, Efik, Hausa </strong>.
                     <br /> Our mentees and candidates get firsthand experience in teamwork. 
                     <br /> Graceworths also undertakes trainings on home management, food and nutrition, catering/cooking, arts, design, crafts, ornamentology, sports.</p>
 
@@ -26,7 +26,7 @@ const FAQPage = ({ bgColor }) => {
                     <h4 className="pt-3 pb-3">Is there any form of certification? </h4>
                     <p >Yes! All these are certified courses ad professional examinations are available.</p>
                     <p>Any more questions?
-                        <a rel="noreferrer" href="mailto:pidox31102002@gmail.com?subject=...HOW...?" target="_blank">
+                        <a rel="noreferrer" href="mailto:graceworthsresources@yahoo.com?subject=...HOW...?" target="_blank">
                             <em>Contact Us</em>
                         </a><em>.</em></p>
                 </div>
