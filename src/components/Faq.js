@@ -24,7 +24,7 @@ const FAQPage = ({ bgColor }) => {
                     <h4 className="pt-3 pb-3">Are home lessons and online lessons offered? </h4>
                     <p>Yes! we offer home lessons and online lessons.</p>
                     <h4 className="pt-3 pb-3">Is there any form of certification? </h4>
-                    <p >Yes! All these are certified courses ad professional examinations are available.</p>
+                    <p >Yes! All these are certified courses and professional examinations are available.</p>
                     <p>Any more questions?
                         <a rel="noreferrer" href="mailto:graceworthsresources@yahoo.com?subject=...HOW...?" target="_blank">
                             <em>Contact Us</em>
