@@ -328,7 +328,7 @@ const OurServices = ({ bgColor }) => {
                                             A program is set aside to help parents face the challenge of the increase of young people who do not understand their different Nigerian languages.
                                             Kids can learn all Nigerian languages early enough to speak fluently before the first ten years of life.
                                             The first attention is given to the home/local language of a child. Each child can afterwards progress to learning other Nigerian languages as preferred.
-                                            Nevertheless, program plans are obtainable for french language and children whose parents are in love with kids speaking the Queens English(the British accents).
+                                            Nevertheless, programs are obtainable for french language and children whose parents are in love with kids speaking the Queens English(the British accents).
                                         </p>
                                     </div>
                                 </div>
