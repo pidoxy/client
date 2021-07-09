@@ -19,7 +19,7 @@ const AboutPage = ({ bgColor }) => {
                 I am excited to have you on this website and we hope you will enjoy reaping all the benefits provided in our highly resourceful packages especially
                 for your kids and young adults.</p>
                 <p className="pb-0 mb-0">
-                    Our kids so innocent and blank on the pages of their minds depend on what we parents and the environment write on the pure pages of their minds.
+                    Our kids so innocent and blank on the pages of their minds depend on what we parents and the environment write on this pure pages of their minds.
                     The foundation of their thinking culture is built on the strength of intelligence and solidified on the exposure created on their minds today.</p>
                 <p className="pb-0 mb-0">
                     Creative thinking starts with innovative minds.</p>
