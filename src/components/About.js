@@ -36,7 +36,7 @@ const AboutPage = ({ bgColor }) => {
                 <p className="pb-0 mb-0">
                     We shall keep to our pledge for excellent service and attention to detail. We are committed to giving you the kind of service you always crave for and hope to meet your educational needs and expectations.</p>
                 <p className="pb-0 mb-5">
-                    Thank you for being a part of our community and our story
+                    Thanks for being a part of our community and our story
                     <br />
                     Sincerely,
                    <p className="para">

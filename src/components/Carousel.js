@@ -6,7 +6,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 class Car extends React.Component {
   render() {
     return (
-      <div className="pt-3 pb-3 pr-5 pl-5 light">
+      <div className="pt-3  pb-3 pr-5 pl-5 light">
         <OwlCarousel items={4} autoplayHoverPause={true} autoplay={true} loop>
           <div class="item">
             <p className="text-center carousel_content mr-1">Trumpet</p>
