@@ -11,18 +11,18 @@ import Car from "./components/Carousel";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar bgColor={"white"} />
-      <LandingPage />
-      <OurServices  bgColor={"white"}/>
-      <Car  bgColor={"light"}/>
-      <AboutPage bgColor={"white"} />
-      <FAQPage bgColor={"light"} />
-      <Footer bgColor={"blue"}/>
-      
+    return (<div className="App" >
+        <Navbar bgColor={"white"} />
+        <LandingPage />
+        <OurServices bgColor={"white"} />
+        <Car bgColor={"light"} />
+        <AboutPage bgColor={"white"} />
+        <FAQPage bgColor={"light"} />
+        <Footer bgColor={"blue"} />
+
+
     </div>
-  );
+    );
 }
 
 export default App;

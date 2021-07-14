@@ -184,10 +184,6 @@ hr {
   height: 500px !important;
 }
 
-/* #MyCarousel .carousel-item {
-  transition: transform 0.05s ease-in-out !important;
-} */
-
 .carousel-inner>.item {
   -webkit-transition: -webkit-transform 0.1s ease-in-out !important;
   -o-transition: -o-transform 0.1s ease-in-out !important;
@@ -320,7 +316,7 @@ hr {
     line-height: 100px;
   }
   .navbar-brand{
-    font-size: .75rem !important;
+    font-size: 1.25rem !important;
     }
   .about-page {
     padding: 20px 15px;
