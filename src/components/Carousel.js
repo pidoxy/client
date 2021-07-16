@@ -8,30 +8,31 @@ class Car extends React.Component {
     return (
       <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 light">
         <OwlCarousel items={4} autoplayHoverPause={true} autoplay={true} loop>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content mr-1">Trumpet</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content mr-1">Violin</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content mr-1">Recorder</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content ">Flute</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content ">Guitar</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content ">Saxophone</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content ">Guitar</p>
           </div>
-          <div class="item">
+          <div className="item">
             <p className="text-center carousel_content ">Local Airs</p>
-          </div><div class="item">
+          </div>
+          <div className="item">
             <p className="text-center carousel_content ">Foreign Airs</p>
           </div>
         </OwlCarousel>

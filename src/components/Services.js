@@ -3,7 +3,6 @@ import React from "react";
 // images
 import i2 from "../2.jpg";
 import i3 from "../3.jpg";
-// import instr1 from "../instrument1.jpeg";
 import i5 from "../5.jpg";
 import i7 from "../7.jpg";
 import i8 from "../8.jpg";
@@ -60,23 +59,23 @@ const OurServices = ({ bgColor }) => {
 
             <div className="">&nbsp;</div>
 
-            <div class="container">
+            <div className="container">
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={violinGirl} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={violinGirl} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={piano} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={piano} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={sax} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={sax} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i3} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i2} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
                     </OwlCarousel>
@@ -93,25 +92,25 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i24} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i24} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i18} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i18} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i23} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i23} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i19} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i21} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i16} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i22} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
                     </OwlCarousel>
@@ -129,19 +128,19 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i42} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i42} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i30} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i30} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={theory} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={theory} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={theory1} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={theory2} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
                     </OwlCarousel>
@@ -157,16 +156,16 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i25} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i25} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={exam2} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={exam2} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={exam1} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={exam1} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i31} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
 
@@ -182,22 +181,22 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i5} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i5} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i7} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i7} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i8} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i8} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i10} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i46} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i46} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i48} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
 
@@ -226,34 +225,34 @@ const OurServices = ({ bgColor }) => {
                 </div>
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i11} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i11} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i12} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i12} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i13} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i13} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i14} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i15} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i15} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i26} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
+                        <div className="item">
                             <img src={i28} className="text-center carousel_content card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i29} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i29} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
 
                     </OwlCarousel>
 
-                    <div class="card-body">
+                    <div className="card-body">
                         <h3>Graceworths Album Creation</h3>
                         <p>
                             This program documents all phases of creativity encouraging more involvement in practical
@@ -267,14 +266,14 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i27} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i27} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={lang} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={lang} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={lang1} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={lang1} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
 
                     </OwlCarousel>
@@ -292,17 +291,17 @@ const OurServices = ({ bgColor }) => {
 
                 <div className="pt-3  pb-3 pr-1 pr-sm-5 pl-sm-5 pl-4 card">
                     <OwlCarousel items={1} autoplayTimeout={1500} autoplayHoverPause={true} autoplay={true} loop>
-                        <div class="item">
-                            <img src={i32} class="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i32} className="card-img-top text-center carousel_content mr-1 img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i33} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i33} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i34} class="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i34} className="text-center carousel_content mr-1 card-img-top img-fluid" alt="violin" />
                         </div>
-                        <div class="item">
-                            <img src={i35} class="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
+                        <div className="item">
+                            <img src={i35} className="text-center carousel_content mr-1card-img-top img-fluid" alt="violin" />
                         </div>
                     </OwlCarousel>
 

@@ -6,12 +6,12 @@ import React from "react";
 const FAQPage = ({ bgColor }) => {
     return (
         <div id="faq" className={` ${bgColor} FAQ-page`}>
-            <div class="col pt-5 container">
+            <div className="col pt-5 container">
                 <h2 className="container text-center">Questions You Have…</h2>
                 <div className="">&nbsp;</div>
             </div>
             <div className="container" id="block-90a0d1403a53c5310b70">
-                <div class="sqs-block-content">
+                <div className="sqs-block-content">
                     <h4 className="pt-3 pb-3">When services do Graceworth institute offer? </h4>
                     <p>Graceworth engages in musical instrument trainings on <strong>recoder</strong>, <strong>clarinet</strong>, <strong>saxophone</strong>, <strong>flute</strong>, <strong>guitar</strong>, and <strong>trumpet</strong>.
                     <br /> We also offer sessions on voice training and album creation,  trainings in Nigerian Languages and French and music. Our languages are <strong>Yoruba, Igbo, Efik, Hausa </strong>.
@@ -28,7 +28,8 @@ const FAQPage = ({ bgColor }) => {
                     <p>Any more questions?
                         <a rel="noreferrer" href="mailto:graceworthsresources@yahoo.com?subject=...HOW...?" target="_blank">
                             <em>Contact Us</em>
-                        </a><em>.</em></p>
+                        </a><em>.</em>
+                        </p>
                 </div>
             </div>
 
